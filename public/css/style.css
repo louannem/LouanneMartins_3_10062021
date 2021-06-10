@@ -44,6 +44,7 @@ body, html, button, a, p {
   font-weight: 500;
   box-shadow: 0px 4px 8px -1px lightgray;
   cursor: pointer;
+  color: #ffffff;
 }
 .cta-btn a {
   color: white;
