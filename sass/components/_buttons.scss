@@ -9,4 +9,6 @@
     color: #ffffff;
 
     a {     color: white;}
+
+    &:hover { background: linear-gradient(175deg, lighten($pink, 5), lighten($purple, 5))}
 }
