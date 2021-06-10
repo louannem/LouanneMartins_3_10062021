@@ -43,7 +43,7 @@
         @include standard-shadown;
         @include standard-borders;
 
-        &--highlight { background-color: lighten($purple, 35%);}
+        &:hover { background-color: lighten($purple, 35%); }
 
         .container__number {
             position: absolute;

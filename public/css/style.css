@@ -17,8 +17,18 @@ h2 {
   margin-top: 0;
 }
 
+#menu-page {
+  position: relative;
+  z-index: 5;
+}
+
 body, html, button, a, p {
   font-family: "Roboto";
+}
+
+#menu-page h1 {
+  font-family: "Shrikhand";
+  font-size: 25px;
 }
 
 .cta-btn {
@@ -30,6 +40,48 @@ body, html, button, a, p {
   font-weight: 500;
   box-shadow: 0px 4px 8px 0px lightgray;
   cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  z-index: 5;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 2px -2px lightgray;
+}
+header img {
+  height: 30px;
+}
+header a {
+  color: #000000;
+}
+
+footer {
+  background-color: #353535;
+  padding: 25px;
+  color: white;
+  line-height: 25px;
+}
+footer h3 {
+  font-size: 20px;
+  font-family: "Shrikhand", cursive;
+  margin: 5px 0;
+}
+footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+footer a {
+  color: white;
+}
+footer i {
+  font-size: 12px;
+  width: 20px;
 }
 
 #localisation {
@@ -84,7 +136,7 @@ body, html, button, a, p {
   box-shadow: 0px 4px 8px 0px lightgray;
   border-radius: 15px;
 }
-#steps .step__container--highlight {
+#steps .step__container:hover {
   background-color: #f2eafb;
 }
 #steps .step__container .container__number {
@@ -175,43 +227,30 @@ body, html, button, a, p {
   cursor: pointer;
 }
 
-header {
-  width: 100%;
-  height: 50px;
-  position: relative;
-  z-index: 5;
-  padding: 10px 0px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 2px -2px lightgray;
-}
-header img {
-  height: 30px;
+header a {
+  position: absolute;
+  left: 5%;
 }
 
-footer {
-  background-color: #353535;
-  padding: 25px;
-  color: white;
-  line-height: 25px;
+#image-banner {
+  height: 250px;
+  position: relative;
 }
-footer h3 {
-  font-size: 20px;
-  font-family: "Shrikhand", cursive;
-  margin: 5px 0;
+#image-banner img {
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
 }
-footer ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-footer a {
-  color: white;
-}
-footer i {
-  font-size: 12px;
-  width: 20px;
+
+#menu-listing {
+  width: 100%;
+  padding: 40px 1em;
+  box-sizing: border-box;
+  background-color: #f6f6f6;
+  position: relative;
+  top: -50px;
+  border-radius: 30px 30px 0 0;
 }
 
 /*# sourceMappingURL=style.css.map */
