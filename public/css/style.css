@@ -20,7 +20,7 @@ body, html, button, a, p {
   background: linear-gradient(175deg, #FF79DA, #9356DC);
   color: white;
   font-weight: 500;
-  box-shadow: 0px 4px 3px 0px lightgray;
+  box-shadow: 0px 4px 8px 0px lightgray;
   cursor: pointer;
 }
 
@@ -100,6 +100,49 @@ body, html, button, a, p {
 #restaurants {
   background-color: #f6f6f6;
   padding: 1.5em 1em;
+}
+#restaurants #restaurants__list {
+  display: flex;
+  flex-direction: column;
+}
+#restaurants .restaurant__card {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px 0px lightgray;
+  display: flex;
+  flex-direction: column;
+}
+#restaurants .restaurant__card img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+#restaurants .restaurant__card .card__banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 75px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  border-radius: 0 0 15px 15px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+#restaurants .restaurant__card .card__text h3 {
+  margin: 5px 0px;
+}
+#restaurants .restaurant__card i {
+  font-size: 25px;
+  cursor: pointer;
 }
 
 header {

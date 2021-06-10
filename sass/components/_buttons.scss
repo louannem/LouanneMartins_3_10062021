@@ -5,6 +5,6 @@
     background: linear-gradient(175deg, $pink, $purple);
     color: white;
     font-weight: 500;
-    box-shadow: 0px 4px 3px 0px lightgray;
+    @include standard-shadown;
     cursor: pointer;
 }

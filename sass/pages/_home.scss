@@ -67,4 +67,44 @@
 #restaurants { 
     background-color: $light-bkg;
     @include global-padding;
+
+    #restaurants__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .restaurant__card {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        background-color: white;
+        @include standard-borders;
+        @include standard-shadown;
+        display: flex;
+        flex-direction: column;
+
+        img { position: absolute; top: 0; width: 100%; height: 90%; object-fit: cover; @include standard-borders;}
+
+        .card__banner { 
+            display: flex; 
+            flex-direction: row; 
+            align-items: center;
+            justify-content: space-between;
+            height: 75px; 
+            width: 100%; 
+            position: absolute; 
+            bottom: 0; 
+            background-color: white; 
+            border-radius: 0 0 15px 15px;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+
+        .card__text  {
+            h3 { margin: 5px 0px}
+        }
+
+        i { font-size: 25px; cursor: pointer;}
+    }
+
 }
