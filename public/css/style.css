@@ -29,7 +29,7 @@ body, html, button, a, p {
   align-items: center;
   justify-content: center;
   background-color: #eaeaea;
-  padding: 1em;
+  padding: 1.5em 1em;
 }
 #localisation i, #localisation span {
   margin: 0 5px;
@@ -37,7 +37,7 @@ body, html, button, a, p {
 
 #explore {
   background-color: #f6f6f6;
-  padding: 1em;
+  padding: 1.5em 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,6 +56,50 @@ body, html, button, a, p {
 }
 #explore button a {
   width: 100%;
+}
+
+#steps {
+  padding: 1.5em 1em;
+  display: flex;
+  flex-direction: column;
+}
+#steps .step__container {
+  position: relative;
+  width: 100%;
+  background-color: #f6f6f6;
+  display: flex;
+  box-sizing: border-box;
+  padding: 25px;
+  align-items: center;
+  text-align: left;
+  margin: 10px 0px;
+  box-shadow: 0px 4px 8px 0px lightgray;
+  border-radius: 15px;
+}
+#steps .step__container--highlight {
+  background-color: #f2eafb;
+}
+#steps .step__container .container__number {
+  position: absolute;
+  top: 25px;
+  left: -10px;
+  background-color: #9356DC;
+  width: 25px;
+  height: 25px;
+  color: white;
+  font-size: 14px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#steps .step__container i {
+  width: 10%;
+}
+
+#restaurants {
+  background-color: #f6f6f6;
+  padding: 1.5em 1em;
 }
 
 header {

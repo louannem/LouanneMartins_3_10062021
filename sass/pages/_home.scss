@@ -26,3 +26,45 @@
         a { width: 100%;}
     }
 }
+
+
+#steps {
+    @include global-padding;
+    display: flex;
+    flex-direction: column;
+
+    .step__container {
+        position: relative;
+        width: 100%;
+        background-color: $light-bkg;
+        @include component-alignement;
+        text-align: left;
+        margin: 10px 0px;
+        @include standard-shadown;
+        @include standard-borders;
+
+        &--highlight { background-color: lighten($purple, 35%);}
+
+        .container__number {
+            position: absolute;
+            top: 25px;
+            left: -10px;
+            background-color: $purple;
+            width: 25px;
+            height: 25px;
+            color: white;
+            font-size: 14px;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;    
+        }
+        i { width: 10%;}
+    }
+}
+
+
+#restaurants { 
+    background-color: $light-bkg;
+    @include global-padding;
+}
