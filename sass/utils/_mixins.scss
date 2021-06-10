@@ -4,8 +4,14 @@
     align-items: center;
 }
 
+@mixin flex-around {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 @mixin global-padding {
-    padding: 40px 1em;
+    padding: 40px 1em 0 1em;
 }
 
 @mixin component-alignement {
@@ -16,7 +22,7 @@
 }
 
 @mixin standard-shadown {
-    box-shadow: 0px 4px 8px 0px lightgray;
+    box-shadow: 0px 4px 8px -1px lightgray;
 }
 
 @mixin standard-borders {
