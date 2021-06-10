@@ -13,6 +13,17 @@ body, html, button, a, p {
   font-family: "Roboto";
 }
 
+.cta-btn {
+  padding: 1em;
+  border-radius: 1000px;
+  border: none;
+  background: linear-gradient(175deg, #FF79DA, #9356DC);
+  color: white;
+  font-weight: 500;
+  box-shadow: 0px 4px 3px 0px lightgray;
+  cursor: pointer;
+}
+
 #localisation {
   display: flex;
   align-items: center;
