@@ -1,0 +1,11 @@
+{
+  "name": "projet-ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet 3 OC - Ohmyfood",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "author": "Lou-Anne Martins",
+  "license": "ISC"
+}
