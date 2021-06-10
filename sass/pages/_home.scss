@@ -11,6 +11,7 @@
 #explore{
     background-color: $light-bkg;
     @include global-padding;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,12 +25,14 @@
         width: 200px;
         margin-top: 20px;
         a { width: 100%;}
+        color: #ffffff;
     }
 }
 
 
 #steps {
     @include global-padding;
+    padding-bottom: 40px;
     display: flex;
     flex-direction: column;
 

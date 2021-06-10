@@ -105,6 +105,7 @@ footer i {
 #explore {
   background-color: #f6f6f6;
   padding: 40px 1em 0 1em;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -120,6 +121,7 @@ footer i {
 #explore button {
   width: 200px;
   margin-top: 20px;
+  color: #ffffff;
 }
 #explore button a {
   width: 100%;
@@ -127,6 +129,7 @@ footer i {
 
 #steps {
   padding: 40px 1em 0 1em;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
 }
@@ -291,7 +294,7 @@ header a {
   margin-bottom: 0;
 }
 
-article {
+.dishes__list article {
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -305,10 +308,10 @@ article {
   border-radius: 15px;
   cursor: pointer;
 }
-article .dish__info h3 {
+.dishes__list article .dish__info h3 {
   margin: 0;
 }
-article .dish__info span {
+.dishes__list article .dish__info span {
   font-size: 15px;
   color: gray;
 }
