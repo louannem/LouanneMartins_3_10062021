@@ -5,8 +5,23 @@ body, html {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body, html, button, a, p {
   font-family: "Roboto";
+}
+
+#localisation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaeaea;
+  padding: 1em;
+}
+#localisation i, #localisation span {
+  margin: 0 5px;
 }
 
 header {

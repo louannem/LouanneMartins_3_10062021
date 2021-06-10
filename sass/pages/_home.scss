@@ -1,0 +1,11 @@
+#localisation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaeaea;
+    @include global-padding;
+
+    i, span { margin: 0 5px}
+}
+
+#explore{}
