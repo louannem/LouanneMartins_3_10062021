@@ -135,6 +135,20 @@ body, html, button, a, p {
   object-fit: cover;
   border-radius: 15px;
 }
+#restaurants .restaurant__card .new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 65%;
+  top: 5%;
+  width: 30%;
+  height: 30px;
+  background-color: #99E2D0;
+  color: #278870;
+  z-index: 3;
+  padding: 2px;
+}
 #restaurants .restaurant__card .card__banner {
   display: flex;
   flex-direction: row;
