@@ -3,8 +3,9 @@
     border-radius: 1000px;
     border: none;
     background: linear-gradient(175deg, $pink, $purple);
-    color: white;
     font-weight: 500;
     @include standard-shadown;
     cursor: pointer;
+
+    a {     color: white;}
 }

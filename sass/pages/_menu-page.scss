@@ -64,7 +64,18 @@ article {
     @include standard-borders;
     cursor: pointer;
 
-    h3 { margin: 0}
-    span { font-size: 15px; color: gray;}
+    .dish__info { 
+        h3 { margin: 0}
+        span { font-size: 15px; color: gray;}
+    }
+
+}
+
+#order-section { 
+    width: 100%; 
+    @include flex-center; 
+    margin-top: 30px;
+
+    button { width: 155px;}
 
 }

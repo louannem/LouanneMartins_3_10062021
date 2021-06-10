@@ -41,10 +41,12 @@ body, html, button, a, p {
   border-radius: 1000px;
   border: none;
   background: linear-gradient(175deg, #FF79DA, #9356DC);
-  color: white;
   font-weight: 500;
   box-shadow: 0px 4px 8px -1px lightgray;
   cursor: pointer;
+}
+.cta-btn a {
+  color: white;
 }
 
 header {
@@ -303,12 +305,23 @@ article {
   border-radius: 15px;
   cursor: pointer;
 }
-article h3 {
+article .dish__info h3 {
   margin: 0;
 }
-article span {
+article .dish__info span {
   font-size: 15px;
   color: gray;
+}
+
+#order-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+#order-section button {
+  width: 155px;
 }
 
 /*# sourceMappingURL=style.css.map */
