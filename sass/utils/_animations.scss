@@ -62,6 +62,8 @@
         overflow: hidden;
         @include flex-center; 
         transition: width 1s;
+
+        i { color: #ffff}
     }
 }
 
@@ -69,4 +71,5 @@
     .dish__selection {
     width: 90px;
     }
+
 }

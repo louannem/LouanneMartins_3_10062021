@@ -79,7 +79,7 @@ header {
         flex-direction: column;
         justify-content: flex-end;
         h3 { margin: 0}
-        span { font-size: 15px; color: gray;}
+        span { font-size: 15px; color: gray; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     }
 
     .dish__price { 

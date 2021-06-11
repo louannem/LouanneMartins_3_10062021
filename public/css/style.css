@@ -70,6 +70,9 @@
   align-items: center;
   transition: width 1s;
 }
+.dish__selection i {
+  color: #ffff;
+}
 
 .dish:hover .dish__selection {
   width: 90px;
@@ -397,6 +400,9 @@ header a {
 .dishes__list article .dish__info span, .dish .dish__info span {
   font-size: 15px;
   color: gray;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .dishes__list article .dish__price, .dish .dish__price {
   height: 100%;
