@@ -55,26 +55,46 @@ header {
     #deserts__list { margin-bottom : 0}
 }
 
-.dishes__list article { 
+.dishes__list article, .dish { 
     width: 100%;
+    min-height: 70px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
     background-color: #ffffff;;
     margin: 10px 0;
-    padding: 10px;
+    padding: 0px;
     box-sizing: border-box;
     @include standard-shadown;
     @include standard-borders;
     cursor: pointer;
 
     .dish__info { 
+        min-height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
         h3 { margin: 0}
         span { font-size: 15px; color: gray;}
     }
 
+    .dish__price { 
+        height: 100%; 
+        width: 70px;
+        box-sizing: border-box;
+        padding: 10px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+
 }
+
 
 #order-section { 
     width: 100%; 

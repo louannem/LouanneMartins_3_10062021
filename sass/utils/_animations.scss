@@ -53,3 +53,20 @@
 
 
 //AJOUT DE PLATS
+.dish {
+    overflow: hidden;
+    &__selection { 
+        background-color: $mint; 
+        height: 100%; 
+        width: 0px; 
+        overflow: hidden;
+        @include flex-center; 
+        transition: width 1s;
+    }
+}
+
+.dish:hover {
+    .dish__selection {
+    width: 90px;
+    }
+}
