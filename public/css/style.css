@@ -1,5 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+.block__icons {
+  height: 25px;
+  width: 25px;
+}
+.block__icons i {
+  position: absolute;
+  font-size: 25px;
+  cursor: pointer;
+}
+.block__icons .fas {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+.block__icons .far {
+  z-index: 2;
+  transition: opacity 0.1s;
+}
+.block__icons .far:active {
+  opacity: 0;
+}
+.block__icons .far:active + .fas {
+  opacity: 1;
+  background: -webkit-linear-gradient(65deg, #FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 body, html {
   margin: 0;
   padding: 0;
@@ -237,30 +264,6 @@ footer i {
   color: grey;
   font-size: medium;
 }
-#restaurants .restaurant__card .block__icons {
-  height: 25px;
-  width: 25px;
-}
-#restaurants .restaurant__card .block__icons i {
-  position: absolute;
-  font-size: 25px;
-  cursor: pointer;
-}
-#restaurants .restaurant__card .block__icons .fas {
-  opacity: 0;
-}
-#restaurants .restaurant__card .block__icons .far {
-  z-index: 2;
-}
-#restaurants .restaurant__card .block__icons .far:active {
-  opacity: 0;
-}
-#restaurants .restaurant__card .block__icons .far:active + .fas {
-  opacity: 1;
-  background: -webkit-linear-gradient(175deg, #FF79DA, #9356DC);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
 header a {
   position: absolute;
@@ -285,30 +288,6 @@ header a {
 }
 #menu__title h1 {
   margin: 0;
-}
-#menu__title .block__icons {
-  height: 25px;
-  width: 25px;
-}
-#menu__title .block__icons i {
-  position: absolute;
-  font-size: 25px;
-  cursor: pointer;
-}
-#menu__title .fas {
-  opacity: 0;
-}
-#menu__title .far {
-  z-index: 2;
-}
-#menu__title .far:active {
-  opacity: 0;
-}
-#menu__title .far:active + .fas {
-  opacity: 1;
-  background: -webkit-linear-gradient(175deg, #FF79DA, #9356DC);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 #menu-listing {
