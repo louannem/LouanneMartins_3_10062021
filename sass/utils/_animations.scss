@@ -1,4 +1,4 @@
-//ICONS FAVORIS - A TRANSFORMER EN KEYFRAMES
+//ICONS FAVORIS 
 .block__icons { 
     height:25px; 
     width: 25px;
@@ -18,9 +18,6 @@
     }
 }
 
-.dishes__list {
-    article { animation:menu-slide ease 1s}
-}
 
 
 //SPINNER
@@ -29,10 +26,18 @@
 
 
 //MENUS
+
+.dishes__list {
+    article { animation:menu-slide ease-out 1s;  opacity: 0;animation-fill-mode: forwards}
+}
+
 @keyframes menu-slide {
     0% {
-        transform: translateY(30px);
-        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    80% {
+        opacity: 1;
     }
 
     100% { 
@@ -40,6 +45,10 @@
         opacity: 1;
     }
 }
+
+.dishes__list .delay1 { animation-delay: 0.25s;}
+.dishes__list .delay2 { animation-delay: 0.5s;}
+.dishes__list .delay3 { animation-delay: .75s;}
 
 
 
