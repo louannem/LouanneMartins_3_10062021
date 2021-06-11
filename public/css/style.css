@@ -51,6 +51,7 @@ body, html, button, a, p {
 }
 .cta-btn:hover {
   background: linear-gradient(175deg, #ff93e1, #a16be0);
+  box-shadow: 0px 4px 8px -1px #a0a0a0;
 }
 
 header {
@@ -255,6 +256,29 @@ header a {
   object-fit: contain;
   position: absolute;
   top: 0;
+}
+
+#menu__title .block__icons {
+  height: 25px;
+  width: 25px;
+}
+#menu__title .block__icons i {
+  position: absolute;
+}
+#menu__title .fas {
+  opacity: 0;
+}
+#menu__title .far {
+  z-index: 2;
+}
+#menu__title .far:active {
+  opacity: 0;
+}
+#menu__title .far:active + .fas {
+  opacity: 1;
+  background: -webkit-linear-gradient(175deg, #FF79DA, #9356DC);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #menu-listing {
