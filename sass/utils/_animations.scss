@@ -12,6 +12,7 @@
         +.fas {
             opacity: 1;
         background: -webkit-linear-gradient(65deg, $pink, $purple);
+        background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         }

@@ -1,0 +1,79 @@
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+    #steps,#restaurants, #menu-listing { padding: 40px 2em 0 2em;} 
+
+
+    #steps { margin-bottom: 30px;}   
+    #restaurants {
+        #restaurants__list { flex-direction: row; flex-wrap: wrap; justify-content: space-around;}
+        .restaurant__card { width: 45%;}
+    } 
+}
+
+
+@media screen and (min-width: 1025px) {
+    header a { left: 2%}
+    #steps, #restaurants, #menu-listing { padding: 50px 5% ;}
+
+    #explore {
+        h1 {font-size: 40px}
+        p { font-size: 25px;}
+        button {  width: 300px; }
+    }
+
+    #steps__block { 
+        display: flex; 
+        justify-content: space-between; 
+        
+        .step__container { width: 30%;}
+    }
+
+    #restaurants {
+        #restaurants__list { 
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .restaurant__card { width: 48%;}
+    }
+
+    #image-banner img { 
+        filter: blur(1px)
+    }
+
+
+    #menu-listing { 
+        width: 90%; 
+        margin: 0 5%;
+        border-radius: 30px;
+
+        h1 { font-size: 35px;}
+    }
+
+    #dishes__cat {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        section { width: 30%}
+        h3 { font-size: 15px;}
+    }
+
+    #order-section button { width: 250px;}
+
+
+    footer {
+        height: 150px;
+        display: flex;
+        align-items: center;
+
+        h3 { margin-right: 50px; font-size: 25px;}
+        ul {
+            display: flex;
+            justify-content: flex-start;
+
+            li { margin-right: 30px;}
+        }
+    }
+    
+
+}

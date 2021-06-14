@@ -23,6 +23,7 @@
 .block__icons .far:active + .fas {
   opacity: 1;
   background: -webkit-linear-gradient(65deg, #FF79DA, #9356DC);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -130,6 +131,12 @@ body, html, button, a, p {
 .cta-btn:hover {
   background: linear-gradient(175deg, #ff93e1, #a16be0);
   box-shadow: 0px 4px 8px -1px #a0a0a0;
+}
+@media screen and (min-width: 1025px) {
+  .cta-btn {
+    font-size: 20px;
+    padding: 15px;
+  }
 }
 
 header {
@@ -423,6 +430,107 @@ header a {
 }
 #order-section button {
   width: 155px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  #steps, #restaurants, #menu-listing {
+    padding: 40px 2em 0 2em;
+  }
+
+  #steps {
+    margin-bottom: 30px;
+  }
+
+  #restaurants #restaurants__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #restaurants .restaurant__card {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 1025px) {
+  header a {
+    left: 2%;
+  }
+
+  #steps, #restaurants, #menu-listing {
+    padding: 50px 5%;
+  }
+
+  #explore h1 {
+    font-size: 40px;
+  }
+  #explore p {
+    font-size: 25px;
+  }
+  #explore button {
+    width: 300px;
+  }
+
+  #steps__block {
+    display: flex;
+    justify-content: space-between;
+  }
+  #steps__block .step__container {
+    width: 30%;
+  }
+
+  #restaurants #restaurants__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #restaurants .restaurant__card {
+    width: 48%;
+  }
+
+  #image-banner img {
+    filter: blur(1px);
+  }
+
+  #menu-listing {
+    width: 90%;
+    margin: 0 5%;
+    border-radius: 30px;
+  }
+  #menu-listing h1 {
+    font-size: 35px;
+  }
+
+  #dishes__cat {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #dishes__cat section {
+    width: 30%;
+  }
+  #dishes__cat h3 {
+    font-size: 15px;
+  }
+
+  #order-section button {
+    width: 250px;
+  }
+
+  footer {
+    height: 150px;
+    display: flex;
+    align-items: center;
+  }
+  footer h3 {
+    margin-right: 50px;
+    font-size: 25px;
+  }
+  footer ul {
+    display: flex;
+    justify-content: flex-start;
+  }
+  footer ul li {
+    margin-right: 30px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
