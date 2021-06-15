@@ -99,7 +99,12 @@
 //MENUS
 
 .dishes__list {
-    article { animation:menu-slide ease-out 1s;  opacity: 0;animation-fill-mode: forwards}
+    article { 
+        animation:menu-slide ease-out 0.8s;  
+        opacity: 0;
+        animation-fill-mode: forwards
+    }
+
 }
 
 @keyframes menu-slide {
@@ -134,15 +139,17 @@
         width: 0px; 
         overflow: hidden;
         @include flex-center; 
-        transition: width 1s;
+        transition: width 0.8s;
 
-        i { color: #ffff}
+        i {color: #ffffff; transition: transform 0.5s ease-out;}
+        
     }
 }
 
 .dish:hover {
     .dish__selection {
     width: 90px;
+    i {transform: rotate(360deg);}
     }
 
 }
