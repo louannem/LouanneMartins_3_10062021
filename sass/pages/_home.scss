@@ -1,3 +1,69 @@
+
+#loading__container { 
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    z-index:5;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: loading 4s ease-out;
+    animation-fill-mode: forwards;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+  
+    div {
+      width: 25px;
+      height: 25px;
+      margin: 2rem 10px;
+      background: linear-gradient(175deg, $pink, $purple);
+      border-radius: 50%;
+      animation: 0.4s bounce infinite alternate;
+  
+      &:nth-child(2) {
+        animation-delay: 0.1s;
+      }
+  
+      &:nth-child(3) {
+        animation-delay: 0.2s;
+      }
+    }
+  }
+  
+  @keyframes bounce {
+    to {
+      opacity: 0.3;
+      transform: translate3d(0, -1rem, 0);
+    }
+  }
+
+
+  @keyframes loading {
+      0% {
+        opacity: 1;
+      }
+
+      95% {
+          opacity: 1;
+          z-index: 5
+      }
+
+      100% {
+        opacity: 0;
+        z-index: -1;
+        animation: bounce paused;
+      }
+
+  } 
+  
+  
+
+
 #localisation {
     display: flex;
     align-items: center;
