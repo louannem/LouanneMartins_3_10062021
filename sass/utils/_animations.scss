@@ -28,12 +28,26 @@
     position: fixed;
     top:0;
     z-index:5;
-    background-color: #ffffff;
+    background-color: $light-bkg;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     animation: loading 4s ease-out;
     animation-fill-mode: forwards;
+
+    span {
+        font-size: 25px;
+        font-family: 'Shrikhand', cursive;
+        text-transform: lowercase;
+        font-style: italic;
+        text-align: center;
+        /*letter-spacing: 3px;
+        background: -webkit-linear-gradient($pink, $purple);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;*/
+        color: darken($light-bkg, 4%);
+    }
 }
 
 .loading {
@@ -41,10 +55,10 @@
     justify-content: center;
   
     div {
-      width: 25px;
-      height: 25px;
-      margin: 2rem 10px;
-      background: linear-gradient(175deg, $pink, $purple);
+      width: 10px;
+      height: 10px;
+      margin: 10px;
+      background: linear-gradient(70deg, $pink, $purple);
       border-radius: 50%;
       animation: 0.35s bounce infinite alternate;
   
