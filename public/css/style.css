@@ -48,10 +48,6 @@
   text-transform: lowercase;
   font-style: italic;
   text-align: center;
-  /*letter-spacing: 3px;
-  background: -webkit-linear-gradient($pink, $purple);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;*/
   color: #e9e9e9;
 }
 
@@ -63,7 +59,7 @@
   width: 10px;
   height: 10px;
   margin: 10px;
-  background: linear-gradient(70deg, #FF79DA, #9356DC);
+  background: linear-gradient(170deg, #FF79DA, 50%, #9356DC);
   border-radius: 50%;
   animation: 0.35s bounce infinite alternate;
 }
