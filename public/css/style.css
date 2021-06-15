@@ -145,6 +145,13 @@
   transform: rotate(360deg);
 }
 
+.dish:active .dish__selection {
+  width: 90px;
+}
+.dish:active .dish__selection i {
+  transform: rotate(360deg);
+}
+
 body, html {
   margin: 0;
   padding: 0;

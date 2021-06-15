@@ -151,5 +151,11 @@
     width: 90px;
     i {transform: rotate(360deg);}
     }
+}
 
+.dish:active {
+    .dish__selection {
+        width: 90px;
+        i {transform: rotate(360deg);}
+        }
 }
