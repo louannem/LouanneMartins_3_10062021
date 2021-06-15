@@ -71,15 +71,16 @@ header {
     cursor: pointer;
 
     .dish__info { 
-        min-height: 100%;
+        height: 70px;
         width: 100%;
         box-sizing: border-box;
         padding: 10px;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
-        h3 { margin: 0}
-        span { font-size: 15px; color: gray; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        @include text-overflow;
+        h3 { margin: 0; font-size: 17.5px; @include text-overflow;}
+        span { font-size: 15px; color: gray; @include text-overflow; }
     }
 
     .dish__price { 

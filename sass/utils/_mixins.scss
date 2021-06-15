@@ -28,3 +28,9 @@
 @mixin standard-borders {
     border-radius: 15px;;
 }
+
+@mixin text-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
