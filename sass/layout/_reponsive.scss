@@ -1,3 +1,4 @@
+//TABLET
 @media screen and (min-width: 720px) and (max-width: 1024px) {
     #steps,#restaurants, #menu-listing { padding: 40px 2em 0 2em;} 
 
@@ -9,7 +10,7 @@
     } 
 }
 
-
+//DESKTOP
 @media screen and (min-width: 1025px) {
     header a { left: 2%}
     #steps, #restaurants, #menu-listing { padding: 50px 5% ;}
@@ -46,6 +47,7 @@
         width: 90%; 
         margin: 0 5%;
         border-radius: 30px;
+        margin-bottom: 100px;
 
         h1 { font-size: 35px;}
     }
@@ -67,6 +69,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        position: relative;
+        z-index: 5;
 
         h3 { margin-right: 50px; font-size: 25px;}
         ul {

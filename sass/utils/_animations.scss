@@ -33,7 +33,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    animation: loading 4s ease-out;
+    animation: loading 3s ease-out;
     animation-fill-mode: forwards;
 
     span {
@@ -42,7 +42,7 @@
         text-transform: lowercase;
         font-style: italic;
         text-align: center;
-        color: darken($light-bkg, 5%);
+        color: darken($light-bkg, 7%);
     }
 }
 
