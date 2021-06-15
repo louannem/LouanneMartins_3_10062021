@@ -559,13 +559,20 @@ header a {
     width: 48%;
   }
 
+  #menu-page {
+    background-color: #ffffff;
+  }
+
   #image-banner img {
     filter: blur(1px);
+    object-fit: cover;
+    height: 100%;
   }
 
   #menu-listing {
     width: 90%;
     margin: 0 5%;
+    position: relative;
     border-radius: 30px;
     margin-bottom: 100px;
   }

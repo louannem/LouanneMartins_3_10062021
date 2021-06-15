@@ -38,14 +38,20 @@
         .restaurant__card { width: 48%;}
     }
 
-    #image-banner img { 
-        filter: blur(1px)
+    #menu-page { background-color: #ffffff;}
+    #image-banner {
+        img { 
+            filter: blur(1px);
+            object-fit: cover;
+            height: 100%;
+        }
     }
 
 
     #menu-listing { 
         width: 90%; 
         margin: 0 5%;
+        position: relative;
         border-radius: 30px;
         margin-bottom: 100px;
 
