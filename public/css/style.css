@@ -61,7 +61,7 @@
   margin: 10px;
   background: linear-gradient(170deg, #FF79DA, 50%, #9356DC);
   border-radius: 50%;
-  animation: 0.35s bounce infinite alternate;
+  animation: 0.3s bounce infinite alternate;
 }
 .loading div:nth-child(2) {
   animation-delay: 0.1s;
@@ -142,13 +142,6 @@
   width: 90px;
 }
 .dish:hover .dish__selection i {
-  transform: rotate(360deg);
-}
-
-.dish:active .dish__selection {
-  width: 90px;
-}
-.dish:active .dish__selection i {
   transform: rotate(360deg);
 }
 

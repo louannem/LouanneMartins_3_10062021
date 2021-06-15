@@ -56,7 +56,7 @@
       margin: 10px;
       background: linear-gradient(170deg, $pink, 50%, $purple);
       border-radius: 50%;
-      animation: 0.35s bounce infinite alternate;
+      animation: 0.3s bounce infinite alternate;
   
       &:nth-child(2) {
         animation-delay: 0.1s;
@@ -122,8 +122,6 @@
     }
 }
 
-
-
 .dishes__list .delay1 { animation-delay: 0.25s;}
 .dishes__list .delay2 { animation-delay: 0.5s;}
 .dishes__list .delay3 { animation-delay: .75s;}
@@ -151,11 +149,4 @@
     width: 90px;
     i {transform: rotate(360deg);}
     }
-}
-
-.dish:active {
-    .dish__selection {
-        width: 90px;
-        i {transform: rotate(360deg);}
-        }
 }
