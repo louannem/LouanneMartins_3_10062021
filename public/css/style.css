@@ -87,7 +87,6 @@
   100% {
     opacity: 0;
     z-index: -1;
-    animation: bounce paused;
   }
 }
 .dishes__list article {
