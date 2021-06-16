@@ -18,7 +18,7 @@
     #explore {
         h1 {font-size: 40px}
         p { font-size: 25px;}
-        button {  width: 300px; }
+        a {  width: 250px; font-size: 17px;}
     }
 
     #steps__block { 
@@ -76,7 +76,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        z-index: 5;
+        //z-index: 5;
 
         h3 { margin-right: 50px; font-size: 25px;}
         ul {

@@ -21,12 +21,6 @@
     h1 { margin: 20px 20px 5px 20px;}
     p { color: grey}
 
-    button { 
-        width: 200px;
-        margin-top: 20px;
-        a { width: 100%;}
-        color: #ffffff;
-    }
 }
 
 
@@ -42,7 +36,7 @@
         background-color: $light-bkg;
         @include component-alignement;
         text-align: left;
-        margin: 10px 0px;
+        margin: 10px 0px 20px 0px;
         @include standard-shadown;
         @include standard-borders;
 

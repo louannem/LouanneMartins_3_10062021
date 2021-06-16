@@ -54,7 +54,7 @@
       width: 10px;
       height: 10px;
       margin: 10px;
-      background: linear-gradient(170deg, $pink, 50%, $purple);
+      background: linear-gradient(170deg, $pink, 40%, $purple);
       border-radius: 50%;
       animation: 0.3s bounce infinite alternate;
   
@@ -103,7 +103,6 @@
         opacity: 0;
         animation-fill-mode: forwards
     }
-
 }
 
 @keyframes menu-slide {
