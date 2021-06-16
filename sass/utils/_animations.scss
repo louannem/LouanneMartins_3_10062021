@@ -46,7 +46,7 @@
     }
 }
 
-#index-main { animation: onload 0.5s ease-out forwards; animation-delay: 2.5s;height: 0; overflow: hidden;}
+#index-main, #index-header, #index-footer { animation: onload 0.5s ease-out forwards; animation-delay: 2.7s;height: 0;overflow: hidden;}
 .loading {
     display: flex;
     justify-content: center;
