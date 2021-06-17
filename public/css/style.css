@@ -372,6 +372,7 @@ header a {
 @media screen and (min-width: 1025px) {
   header {
     padding: 20px;
+    box-sizing: border-box;
   }
   header a {
     left: 2%;
