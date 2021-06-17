@@ -318,13 +318,13 @@ header a {
 }
 .dishes__list article .dish__info h3, .dish .dish__info h3 {
   margin: 0;
-  font-size: 17.5px;
+  font-size: 17px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 .dishes__list article .dish__info span, .dish .dish__info span {
-  font-size: 15px;
+  font-size: 14.8px;
   color: gray;
   white-space: nowrap;
   overflow: hidden;
@@ -443,7 +443,7 @@ header a {
     width: 30%;
   }
   #dishes__cat h3 {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   #order-section button {
@@ -611,7 +611,7 @@ header a {
 }
 .dish__selection {
   background-color: #99E2D0;
-  height: 100%;
+  height: 70px;
   width: 0px;
   overflow: hidden;
   display: flex;

@@ -145,7 +145,7 @@ $delay: 0.25s;
     overflow: hidden;
     &__selection { 
         background-color: $mint; 
-        height: 100%; 
+        height: 70px; 
         width: 0px; 
         overflow: hidden;
         @include flex-center; 
