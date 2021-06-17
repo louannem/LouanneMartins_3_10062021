@@ -516,10 +516,11 @@ header a {
 }
 
 #index-main, #index-header, #index-footer {
-  animation: onload 0.5s ease-out forwards;
-  animation-delay: 2.7s;
+  animation: onload 0s ease-out forwards;
+  animation-delay: 3.1s;
   height: 0;
   overflow: hidden;
+  visibility: hidden;
 }
 
 .loading {
@@ -542,7 +543,11 @@ header a {
 }
 
 @keyframes onload {
-  to {
+  0% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
     height: auto;
   }
 }

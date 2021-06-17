@@ -46,7 +46,7 @@
     }
 }
 
-#index-main, #index-header, #index-footer { animation: onload 0.5s ease-out forwards; animation-delay: 2.7s;height: 0;overflow: hidden;}
+#index-main, #index-header, #index-footer { animation: onload 0s ease-out forwards; animation-delay: 3.1s;height: 0;overflow: hidden; visibility: hidden;}
 .loading {
     display: flex;
     justify-content: center;
@@ -70,7 +70,11 @@
   }
 
   @keyframes onload {
-      to {
+      0% {
+          visibility: hidden;
+      }
+      100% {
+          visibility: visible;
           height: auto;
       }
   }
@@ -90,7 +94,7 @@
 
       95% {
           opacity: 1;
-          z-index: 5
+          z-index: 5;
       }
 
       100% {
