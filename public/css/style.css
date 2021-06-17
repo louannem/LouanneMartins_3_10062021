@@ -62,10 +62,9 @@ body, html, button, a, p {
 
 header {
   width: 100%;
-  height: 50px;
   position: relative;
   z-index: 5;
-  padding: 10px 0px;
+  padding: 20px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -371,19 +370,26 @@ header a {
   }
 }
 @media screen and (min-width: 1025px) {
+  header {
+    padding: 20px;
+  }
   header a {
     left: 2%;
   }
 
   #steps, #restaurants, #menu-listing {
-    padding: 50px 5%;
+    padding: 100px 5%;
   }
 
+  #explore {
+    padding: 70px 0px;
+  }
   #explore h1 {
-    font-size: 40px;
+    font-size: 35px;
+    margin: 0;
   }
   #explore p {
-    font-size: 25px;
+    font-size: 23px;
   }
   #explore a {
     width: 250px;

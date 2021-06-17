@@ -12,12 +12,17 @@
 
 //DESKTOP
 @media screen and (min-width: 1025px) {
-    header a { left: 2%}
-    #steps, #restaurants, #menu-listing { padding: 50px 5% ;}
+    header {
+        padding: 20px;
+        a { left: 2%}
+    }
+
+    #steps, #restaurants, #menu-listing { padding: 100px 5% ;}
 
     #explore {
-        h1 {font-size: 40px}
-        p { font-size: 25px;}
+        padding: 70px 0px;
+        h1 {font-size: 35px; margin: 0}
+        p { font-size: 23px;}
         a {  width: 250px; font-size: 17px;}
     }
 
