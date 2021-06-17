@@ -18,7 +18,7 @@
         a { left: 2%}
     }
 
-    #steps, #restaurants, #menu-listing { padding: 100px 5% ;}
+    #steps, #restaurants, #menu-listing { padding: 80px 5% ;}
 
     #explore {
         padding: 70px 0px;
@@ -41,7 +41,8 @@
             justify-content: space-between;
         }
 
-        .restaurant__card { width: 48%;}
+        .restaurant__card { width: 48%; height: 260px;}
+        .card__banner a { width: 100%;}
     }
 
     #menu-page { background-color: #ffffff;}

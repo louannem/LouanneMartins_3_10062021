@@ -227,6 +227,9 @@ footer i {
   box-sizing: border-box;
   padding: 15px;
 }
+#restaurants .restaurant__card .card__banner a {
+  width: 100%;
+}
 #restaurants .restaurant__card .card__text h3 {
   margin: 5px 0px;
 }
@@ -379,7 +382,7 @@ header a {
   }
 
   #steps, #restaurants, #menu-listing {
-    padding: 100px 5%;
+    padding: 80px 5%;
   }
 
   #explore {
@@ -412,6 +415,10 @@ header a {
   }
   #restaurants .restaurant__card {
     width: 48%;
+    height: 260px;
+  }
+  #restaurants .card__banner a {
+    width: 100%;
   }
 
   #menu-page {
