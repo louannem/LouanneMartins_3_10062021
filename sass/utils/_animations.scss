@@ -5,19 +5,25 @@
 
     i { position: absolute;  font-size: 25px; cursor: pointer;}
 
-    .fas {  opacity: 0;  transition: opacity 0.2s;}
-    .far { z-index: 2; transition: opacity 0.1s;}
-    .far:active {
-        opacity: 0;
-        +.fas {
-            opacity: 1;
+    .fas {  
+        opacity: 0;  
+        transition: opacity 0.2s;        
         background: -webkit-linear-gradient(65deg, $pink, $purple);
         background-clip: text;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+
+    .far { z-index: 2; transition: opacity 0.1s;}
+    
+    .far:hover {
+        opacity: 0;
+        +.fas {
+            opacity: 1;
         }
     }
 }
+
 
 
 

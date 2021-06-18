@@ -64,7 +64,7 @@ header {
   width: 100%;
   position: relative;
   z-index: 5;
-  padding: 20px 0px;
+  padding: 15px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,6 +271,7 @@ header a {
   position: relative;
   top: -50px;
   border-radius: 30px 30px 0 0;
+  padding-bottom: 20px;
 }
 
 #dishes__cat section {
@@ -489,20 +490,20 @@ header a {
 .block__icons .fas {
   opacity: 0;
   transition: opacity 0.2s;
+  background: -webkit-linear-gradient(65deg, #FF79DA, #9356DC);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .block__icons .far {
   z-index: 2;
   transition: opacity 0.1s;
 }
-.block__icons .far:active {
+.block__icons .far:hover {
   opacity: 0;
 }
-.block__icons .far:active + .fas {
+.block__icons .far:hover + .fas {
   opacity: 1;
-  background: -webkit-linear-gradient(65deg, #FF79DA, #9356DC);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 #loading__container {
