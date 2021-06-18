@@ -497,7 +497,7 @@ header a {
 }
 .block__icons .far {
   z-index: 2;
-  transition: opacity 0.1s;
+  transition: opacity 0.2s;
 }
 .block__icons .far:hover {
   opacity: 0;

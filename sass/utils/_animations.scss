@@ -14,7 +14,7 @@
         -webkit-text-fill-color: transparent;
     }
 
-    .far { z-index: 2; transition: opacity 0.1s;}
+    .far { z-index: 2; transition: opacity 0.2s;}
 
     .far:hover {
         opacity: 0;
@@ -97,12 +97,10 @@
       0% {
         opacity: 1;
       }
-
       95% {
           opacity: 1;
           z-index: 5;
       }
-
       100% {
         opacity: 0;
         z-index: -1;
@@ -126,11 +124,9 @@
     0% {
         transform: translateY(20px);
     }
-
     80% {
         opacity: 1;
     }
-
     100% { 
         transform:translateY(0);
         opacity: 1;
