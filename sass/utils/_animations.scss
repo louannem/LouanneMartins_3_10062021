@@ -15,7 +15,7 @@
     }
 
     .far { z-index: 2; transition: opacity 0.1s;}
-    
+
     .far:hover {
         opacity: 0;
         +.fas {
@@ -151,7 +151,7 @@ $delay: 0.25s;
     overflow: hidden;
     &__selection { 
         background-color: $mint; 
-        height: 70px; 
+        height: 65px; 
         width: 0px; 
         overflow: hidden;
         @include flex-center; 

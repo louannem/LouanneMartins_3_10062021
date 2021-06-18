@@ -619,7 +619,7 @@ header a {
 }
 .dish__selection {
   background-color: #99E2D0;
-  height: 70px;
+  height: 65px;
   width: 0px;
   overflow: hidden;
   display: flex;
