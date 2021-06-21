@@ -108,8 +108,18 @@ footer i {
   background-color: #eaeaea;
   padding: 1em;
 }
-#localisation i, #localisation span {
+#localisation i, #localisation input {
   margin: 0 5px;
+}
+#localisation input {
+  background-color: #eaeaea;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  width: 115px;
+}
+#localisation input:focus-visible {
+  outline: none;
 }
 
 #explore {
@@ -207,14 +217,16 @@ footer i {
   justify-content: center;
   align-items: center;
   position: absolute;
-  left: 65%;
-  top: 5%;
-  width: 30%;
+  right: 10px;
+  top: 15px;
+  width: 90px;
   height: 30px;
   background-color: #99E2D0;
+  font-weight: 500;
   color: #278870;
   z-index: 3;
   padding: 2px;
+  border-radius: 2px;
 }
 #restaurants .restaurant__card .card__banner {
   display: flex;
@@ -237,7 +249,6 @@ footer i {
   margin: 5px 0px;
 }
 #restaurants .restaurant__card .card__text span {
-  color: grey;
   font-size: medium;
 }
 

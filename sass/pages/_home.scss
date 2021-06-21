@@ -5,7 +5,18 @@
     background-color: #eaeaea;
     padding: 1em;
 
-    i, span { margin: 0 5px }
+    i, input { margin: 0 5px }
+    input {
+        background-color: #eaeaea;
+        border: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        width: 115px;
+
+        &:focus-visible {
+            outline: none;
+        }
+    }
 }
 
 #explore{
@@ -89,13 +100,15 @@
         .new { 
             @include flex-center;
             position: absolute; 
-            left: 65%; top: 5%; 
-            width: 30%; 
+            right: 10px; top: 15px; 
+            width: 90px; 
             height: 30px; 
             background-color: $mint;
+            font-weight: 500;
             color: darken($mint, 40%); 
             z-index: 3; 
             padding: 2px;
+            border-radius: 2px;
         }
 
         .card__banner { 
@@ -117,7 +130,7 @@
 
         .card__text  {
             h3 { margin: 5px 0px}
-            span { color: grey; font-size: medium;}
+            span {font-size: medium;}
         }
 
     }
