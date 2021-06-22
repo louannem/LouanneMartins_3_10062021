@@ -505,7 +505,6 @@ header a {
   opacity: 0;
   transition: opacity 0.2s;
   background: -webkit-linear-gradient(65deg, #FF79DA, #9356DC);
-  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
