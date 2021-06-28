@@ -53,7 +53,10 @@
         @include standard-shadown;
         @include standard-borders;
 
-        &:hover { background-color: lighten($purple, 35%); }
+        &:hover { 
+            background-color: lighten($purple, 35%); 
+            i { color: $purple; }
+        }
 
         .container__number {
             position: absolute;
